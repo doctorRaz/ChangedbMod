@@ -1,8 +1,8 @@
 #if NC
-using HostMgd.ApplicationServices;
-using HostMgd.EditorInput;
+//using HostMgd.ApplicationServices;
+//using HostMgd.EditorInput;
 
-using Teigha.DatabaseServices;
+//using Teigha.DatabaseServices;
 
 using App = HostMgd.ApplicationServices;
 using Db = Teigha.DatabaseServices;
@@ -11,16 +11,16 @@ using Rtm = Teigha.Runtime;
 
 #elif AC
 
-using Autodesk.AutoCAD.ApplicationServices;
-using Autodesk.AutoCAD.DatabaseServices;
-using Autodesk.AutoCAD.EditorInput;
-using Autodesk.AutoCAD.Windows;
+//using Autodesk.AutoCAD.ApplicationServices;
+//using Autodesk.AutoCAD.DatabaseServices;
+//using Autodesk.AutoCAD.EditorInput;
+//using Autodesk.AutoCAD.Windows;
 
 using App = Autodesk.AutoCAD.ApplicationServices;
-using Cad = Autodesk.AutoCAD.ApplicationServices.Application;
+//using Cad = Autodesk.AutoCAD.ApplicationServices.Application;
 using Db = Autodesk.AutoCAD.DatabaseServices;
 using Ed = Autodesk.AutoCAD.EditorInput;
-using Gem = Autodesk.AutoCAD.Geometry;
+//using Gem = Autodesk.AutoCAD.Geometry;
 using Rtm = Autodesk.AutoCAD.Runtime;
 
 
@@ -29,10 +29,8 @@ using Rtm = Autodesk.AutoCAD.Runtime;
 
 namespace drz.Tools
 {
-    /// <summary> Вызов всех модулей 
-    /// <br>добавил импорт фильтров слоев</br>
-    /// <br>выбор блоков для вращения атрибутов </br> 
-    /// 
+    /// <summary> 
+    /// Комманды
     /// </summary>
     class CadCommand : Rtm.IExtensionApplication
     {
@@ -77,8 +75,6 @@ namespace drz.Tools
             App.Document doc = App.Application.DocumentManager.MdiActiveDocument;
             Ed.Editor ed = doc.Editor;
 
-
-
             Ed.PromptStringOptions opts = new Ed.PromptStringOptions("enter base:");
             opts.AllowSpaces = true;
             Ed.PromptResult pr = ed.GetString(opts);
@@ -87,10 +83,6 @@ namespace drz.Tools
                 bool bSetBD = Multicad.AplicationServices.McParamManager.SetParam(pr.StringResult, 9);
 
             }
-
-
-
-
             //return;
             //string oldBd = Multicad.AplicationServices.McParamManager.GetStringParam(9);//получаем путь к базе текущего приложения
 
