@@ -114,7 +114,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\NC\CadCommand.cs">
+    <Compile Include="..\src\CadCommand.cs">
       <Link>CadCommand.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

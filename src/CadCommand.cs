@@ -25,9 +25,9 @@ using Rtm = Autodesk.AutoCAD.Runtime;
 
 
 #endif
-[assembly: Rtm.CommandClass(typeof(drz.Tools.CadCommand))]
+[assembly: Rtm.CommandClass(typeof(drz.ChangeDBmod.CadCommand))]
 
-namespace drz.Tools
+namespace drz.ChangeDBmod
 {
     /// <summary> 
     /// Комманды
