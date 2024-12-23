@@ -1,8 +1,10 @@
+// Ignore Spelling: Changedb
+
 using System.ComponentModel;
-using System.Reflection;
 
 using drz.Infrastructure.Service;
 
+using MC = Multicad.AplicationServices;
 #if NC
 
 using App = HostMgd.ApplicationServices;
@@ -48,19 +50,21 @@ namespace drz.ChangeDBmod
         /// </summary>
         [Rtm.CommandMethod("drz_changedb", Rtm.CommandFlags.Session)]
         [Description("Переключатель баз MultiCad")]
-        public void changedbMod()
+        public void ChangedbMod()
         {
             App.Document doc = App.Application.DocumentManager.MdiActiveDocument;
-            Db.Database db = doc.Database;
+            //Db.Database db = doc.Database;
             Ed.Editor ed = doc.Editor;
 
-            Ed.PromptStringOptions opts = new Ed.PromptStringOptions("enter base:");
-            opts.AllowSpaces = true;
+            Ed.PromptStringOptions opts = new Ed.PromptStringOptions("enter base:")
+            {
+                AllowSpaces = true
+            };
             Ed.PromptResult pr = ed.GetString(opts);
 
             if (Ed.PromptStatus.OK == pr.Status)
             {
-                bool bSetBD = Multicad.AplicationServices.McParamManager.SetParam(pr.StringResult, 9);
+                _ = MC.McParamManager.SetParam(pr.StringResult, 9);
             }
             //Example switch other database;
             //string oldBd = Multicad.AplicationServices.McParamManager.GetStringParam(9);//получаем путь свойства базы текущего приложения
