@@ -30,7 +30,7 @@ using Rtm = Autodesk.AutoCAD.Runtime;
 namespace drz.ChangeDBmod
 {
     /// <summary> 
-    /// Комманды 
+    /// Команды 
     /// </summary>
     class CadCommand : Rtm.IExtensionApplication
     {
