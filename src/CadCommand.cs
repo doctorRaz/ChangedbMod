@@ -26,7 +26,7 @@ namespace drz.ChangeDBmod
     /// </summary>
     class CadCommand : Rtm.IExtensionApplication
     {
-                #region INIT
+        #region INIT
         public void Initialize()
         {
             //выводим список команд с описаниями
