@@ -2,9 +2,13 @@
 
 using System.ComponentModel;
 
-using drz.Infrastructure.Service;
+
 
 using MC = Multicad.AplicationServices;
+using drz.Infrastructure.CAD.Service;
+using drz.Infrastructure.CAD.MessageService;
+
+
 #if NC
 
 using App = HostMgd.ApplicationServices;
@@ -32,8 +36,7 @@ namespace drz.ChangeDBmod
         public void Initialize()
         {
             //выводим список команд с описаниями
-            CmdInfo comInf = new CmdInfo();
-            comInf.Reflection(); //модуль в этой сборке
+           ListCMD();
         }
 
         public void Terminate()
@@ -81,5 +84,35 @@ namespace drz.ChangeDBmod
         }
 
         #endregion
+        /// <summary>
+        /// Lists the command.
+        /// </summary>
+        void ListCMD(bool bMethod = false)
+        {
+            //выводим список команд с описаниями
+            CmdDuplInfo CDI = new CmdDuplInfo( bMethod);
+
+            System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<CmdDuplInfo.CmdList>> lll = CDI.mapInfo;
+
+
+            Msg msgService = new Msg();
+            if (!string.IsNullOrEmpty(CDI.sCmdInfo))
+            {
+                msgService.MsgConsole(CDI.sCmdInfo);
+            }
+            else
+            {
+                msgService.MsgConsole("Нет зарегистрированных команд");
+            }
+
+            if (!string.IsNullOrEmpty(CDI.sDuplInfo))
+            {
+                //msgService.MsgConsole("_____________________");
+                msgService.MsgConsole(CDI.sDuplInfo);
+                //msgService.MsgConsole("_____________________");
+
+            }
+        }
     }
+
 }

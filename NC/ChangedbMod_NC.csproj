@@ -70,11 +70,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Lib\C#\Infrasructure\src\Service\CmdInfo.cs">
-      <Link>CmdInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Lib\C#\Infrasructure\src\Service\Msg.cs">
+    <Compile Include="..\..\Lib\C#\Infrastructure\src\MesagServise\Msg.cs">
       <Link>Msg.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Lib\C#\Infrastructure\src\Service\CmdDuplInfo.cs">
+      <Link>CmdDuplInfo.cs</Link>
     </Compile>
     <Compile Include="..\src\CadCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
