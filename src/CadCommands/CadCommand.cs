@@ -5,14 +5,15 @@ using System.ComponentModel;
 
 
 using MC = Multicad.AplicationServices;
-using drz.Infrastructure.CAD.Service;
-using drz.Infrastructure.CAD.MessageService;
+
+using drz.ChangeDBmod.Servise;
+
+
 
 
 #if NC
 
 using App = HostMgd.ApplicationServices;
-using Db = Teigha.DatabaseServices;
 using Ed = HostMgd.EditorInput;
 using Rtm = Teigha.Runtime;
 
@@ -35,8 +36,7 @@ namespace drz.ChangeDBmod
         #region INIT
         public void Initialize()
         {
-            //выводим список команд с описаниями
-           ListCMD();
+            ListCmdInfo.ListCMD();//выводим список команд с описаниями
         }
 
         public void Terminate()
@@ -47,6 +47,17 @@ namespace drz.ChangeDBmod
         #endregion
 
         #region Command
+
+        #region INFO
+
+        [Rtm.CommandMethod("drz_changedb_info")]
+        [Description("Информация о командах сборки")]
+        public static void ListCMD()
+        {
+            ListCmdInfo.ListCMD();//выводим список команд с описаниями
+        }
+
+        #endregion
 
         /// <summary>
         /// Переключатель баз MultiCad
@@ -84,35 +95,7 @@ namespace drz.ChangeDBmod
         }
 
         #endregion
-        /// <summary>
-        /// Lists the command.
-        /// </summary>
-        void ListCMD(bool bMethod = false)
-        {
-            //выводим список команд с описаниями
-            CmdDuplInfo CDI = new CmdDuplInfo( bMethod);
 
-            System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<CmdDuplInfo.CmdList>> lll = CDI.mapInfo;
-
-
-            Msg msgService = new Msg();
-            if (!string.IsNullOrEmpty(CDI.sCmdInfo))
-            {
-                msgService.MsgConsole(CDI.sCmdInfo);
-            }
-            else
-            {
-                msgService.MsgConsole("Нет зарегистрированных команд");
-            }
-
-            if (!string.IsNullOrEmpty(CDI.sDuplInfo))
-            {
-                //msgService.MsgConsole("_____________________");
-                msgService.MsgConsole(CDI.sDuplInfo);
-                //msgService.MsgConsole("_____________________");
-
-            }
-        }
     }
 
 }
