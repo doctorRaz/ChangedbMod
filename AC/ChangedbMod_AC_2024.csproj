@@ -8,8 +8,8 @@
     <ProjectGuid>{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>drz</RootNamespace>
-    <AssemblyName>ChangeDBmod_AC2023</AssemblyName>
+    <RootNamespace>drz.ChangeDBmod</RootNamespace>
+    <AssemblyName>ChangeDBmod_AC2024</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -25,6 +25,7 @@
     <Prefer32Bit>false</Prefer32Bit>
     <!--<PlatformTarget>AnyCPU</PlatformTarget>-->
     <TargetName>$(AssemblyName)$(PlatformTarget)</TargetName>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -40,67 +41,67 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AcCoreMgd">
-      <HintPath>..\..\SDK\AC2023\inc\AcCoreMgd.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcCoreMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcCui">
-      <HintPath>..\..\SDK\AC2023\inc\AcCui.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcCui.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcDbMgd">
-      <HintPath>..\..\SDK\AC2023\inc\AcDbMgd.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcDbMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acdbmgdbrep">
-      <HintPath>..\..\SDK\AC2023\inc\acdbmgdbrep.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\acdbmgdbrep.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcDx">
-      <HintPath>..\..\SDK\AC2023\inc\AcDx.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcDx.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcMgd">
-      <HintPath>..\..\SDK\AC2023\inc\AcMgd.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcMr">
-      <HintPath>..\..\SDK\AC2023\inc\AcMr.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcMr.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcSeamless">
-      <HintPath>..\..\SDK\AC2023\inc\AcSeamless.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcSeamless.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcTcMgd">
-      <HintPath>..\..\SDK\AC2023\inc\AcTcMgd.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcTcMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcWindows">
-      <HintPath>..\..\SDK\AC2023\inc\AcWindows.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AcWindows.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AdUIMgd">
-      <HintPath>..\..\SDK\AC2023\inc\AdUIMgd.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AdUIMgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AdUiPalettes">
-      <HintPath>..\..\SDK\AC2023\inc\AdUiPalettes.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AdUiPalettes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AdWindows">
-      <HintPath>..\..\SDK\AC2023\inc\AdWindows.dll</HintPath>
+      <HintPath>..\..\SDK\AC2024\inc\AdWindows.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="imapimgd">
-      <HintPath>C:\SDK_NC\NC_SDK_22.0.5944.3726.6053\include-x64\imapimgd.dll</HintPath>
+      <HintPath>..\..\SDK\NC22\include-x64\imapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mapibasetypes">
-      <HintPath>C:\SDK_NC\NC_SDK_22.0.5944.3726.6053\include-x64\mapibasetypes.dll</HintPath>
+      <HintPath>..\..\SDK\NC22\include-x64\mapibasetypes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mapimgd">
-      <HintPath>C:\SDK_NC\NC_SDK_22.0.5944.3726.6053\include-x64\mapimgd.dll</HintPath>
+      <HintPath>..\..\SDK\NC22\include-x64\mapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
@@ -117,8 +118,8 @@
     <Compile Include="..\..\Lib\C#\Infrastructure\src\MesagServise\Msg.cs">
       <Link>Msg.cs</Link>
     </Compile>
-    <Compile Include="..\..\Lib\C#\Infrastructure\src\Service\CmdDuplInfo.cs">
-      <Link>CmdDuplInfo.cs</Link>
+    <Compile Include="..\..\Lib\C#\Infrastructure\src\Service\AsmInfo.cs">
+      <Link>AsmInfo.cs</Link>
     </Compile>
     <Compile Include="..\..\Lib\C#\Infrastructure\src\Service\CmdInfo.cs">
       <Link>CmdInfo.cs</Link>

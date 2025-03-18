@@ -5,9 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_NC", "NC\ChangeDBmod_NC.csproj", "{045A02B6-25B6-4CB9-A82D-962632A33D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_AC_2023", "AC\ChangeDBmod_AC_2023.csproj", "{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNF", "ConsoleNF\ConsoleNF.csproj", "{C86FDC81-7996-46F3-BF53-053B3FEA5EF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_AC_2024", "AC\ChangeDBmod_AC_2024.csproj", "{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C86FDC81-7996-46F3-BF53-053B3FEA5EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C86FDC81-7996-46F3-BF53-053B3FEA5EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C86FDC81-7996-46F3-BF53-053B3FEA5EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C86FDC81-7996-46F3-BF53-053B3FEA5EF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
