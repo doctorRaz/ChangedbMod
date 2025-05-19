@@ -4,6 +4,8 @@
 Вы тестируете этот код на свой страх и риск\
 Если что то поломается я не виноват
 
+https://deepwiki.com/doctorRaz/ChangedbMod
+
 ## Переключение между базами данных MultiCAD
  
  > `drz_changedb`	Переключение базы данных MultiCAD\
