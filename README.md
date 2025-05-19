@@ -5,8 +5,8 @@
 Если что то поломается я не виноват
 
 
+https://translated.turbopages.org/proxy_u/en-ru.ru.1ac96a35-682b2c4d-a8f5242a-74722d776562/https/deepwiki.com/doctorRaz/ChangedbMod
 
-https://deepwiki-com.translate.goog/doctorRaz/ChangedbMod?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=wapp&_x_tr_hist=true
 
 [Skillbox Media](https://skillbox.ru/media/ "Всплывающая подсказка") с подсказкой
 
