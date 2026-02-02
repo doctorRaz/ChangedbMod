@@ -17,8 +17,6 @@
 
   <ItemGroup>
     <Compile Include="..\src\CadCommands\CadCommand.cs" Link="CadCommands\CadCommand.cs" />
-    <Compile Include="..\src\Interfaces\IAllMessageService.cs" Link="Interfaces\IAllMessageService.cs" />
-    <Compile Include="..\src\Interfaces\IInputBoxService.cs" Link="Interfaces\IInputBoxService.cs" />
     <Compile Include="..\src\Interfaces\IMessageService.cs" Link="Interfaces\IMessageService.cs" />
     <Compile Include="..\src\Interfaces\IQuestionService.cs" Link="Interfaces\IQuestionService.cs" />
     <Compile Include="..\src\Servise\CmdInfo.cs" Link="Servise\CmdInfo.cs" />
@@ -35,7 +33,6 @@
       <HintPath>C:\Program Files\Nanosoft\nanoCAD x64 26.0\bin_nPlat\mapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-	<Reference Include="Microsoft.VisualBasic" />
   </ItemGroup>
 
 </Project>

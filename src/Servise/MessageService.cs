@@ -47,7 +47,7 @@ using Rtm = Autodesk.AutoCAD.Runtime;
 
 namespace drz.ChangeDBmod.Servise
 {
-    internal class MessageService : IAllMessageService// IMessageService,IInputBoxService,IQuestionService
+    internal class MessageService :  IMessageService,IQuestionService
     {
         #region Console
 
@@ -129,16 +129,6 @@ namespace drz.ChangeDBmod.Servise
         }
         #endregion
 
-
-        #region InputBox
-        public string GetTextByInputBox(string Message,
-                                        string Title = null,
-                                        string DefaultValue = "")
-        {
-            _title = Title;
-            return Interaction.InputBox(Message, title, DefaultValue);
-        }
-        #endregion
 
 
         #region Question

@@ -28,7 +28,7 @@ namespace drz.ChangeDBmod.Servise
 
             string sDateRliz = SysInfo.sDateRelies;
 
-            IAllMessageService msgService = new MessageService();
+            IMessageService msgService = new MessageService();
             msgService.ConsoleMessage($"{sTitleAttribute}: v.{sVersion} от {sDateRliz}");
 
             msgService.ConsoleMessage("------------------------------------------");

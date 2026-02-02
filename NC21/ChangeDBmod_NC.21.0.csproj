@@ -18,8 +18,6 @@
 
   <ItemGroup>
     <Compile Include="..\src\CadCommands\CadCommand.cs" Link="CadCommands\CadCommand.cs" />
-    <Compile Include="..\src\Interfaces\IAllMessageService.cs" Link="Interfaces\IAllMessageService.cs" />
-    <Compile Include="..\src\Interfaces\IInputBoxService.cs" Link="Interfaces\IInputBoxService.cs" />
     <Compile Include="..\src\Interfaces\IMessageService.cs" Link="Interfaces\IMessageService.cs" />
     <Compile Include="..\src\Interfaces\IQuestionService.cs" Link="Interfaces\IQuestionService.cs" />
     <Compile Include="..\src\Servise\CmdInfo.cs" Link="Servise\CmdInfo.cs" />
@@ -33,7 +31,6 @@
   <ItemGroup>
     <PackageReference Include="MultiCAD.NET" Version="21.0.5699.3427" />
     <PackageReference Include="nanoCAD.Platform.NET" Version="21.0.5699.3427" />
-	<Reference Include="Microsoft.VisualBasic" />
   </ItemGroup>
 
 </Project>

@@ -119,12 +119,6 @@
     <Compile Include="..\src\CadCommands\CadCommand.cs">
       <Link>CadCommands\CadCommand.cs</Link>
     </Compile>
-    <Compile Include="..\src\Interfaces\IAllMessageService.cs">
-      <Link>Interfaces\IAllMessageService.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Interfaces\IInputBoxService.cs">
-      <Link>Interfaces\IInputBoxService.cs</Link>
-    </Compile>
     <Compile Include="..\src\Interfaces\IMessageService.cs">
       <Link>Interfaces\IMessageService.cs</Link>
     </Compile>
@@ -148,9 +142,6 @@
     </Compile>
     <Compile Include="..\src\Servise\UtilitesWorkFil.cs">
       <Link>Servise\UtilitesWorkFil.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Servise\McParamManagerProxy.cs">
-      <Link>Servise\McParamManagerProxy.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
