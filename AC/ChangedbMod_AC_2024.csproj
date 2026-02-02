@@ -97,11 +97,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="mapibasetypes">
-      <HintPath>..\..\SDK\NC22\include-x64\mapibasetypes.dll</HintPath>
+      <HintPath>..\..\SDK\NC_SDK_22.0.5944.3726.6053\include-x64\mapibasetypes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mapimgd">
-      <HintPath>..\..\SDK\NC22\include-x64\mapimgd.dll</HintPath>
+      <HintPath>..\..\SDK\NC_SDK_22.0.5944.3726.6053\include-x64\mapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
