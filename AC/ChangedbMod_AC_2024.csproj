@@ -146,8 +146,11 @@
     <Compile Include="..\src\Servise\SysInfo.cs">
       <Link>Servise\SysInfo.cs</Link>
     </Compile>
-    <Compile Include="..\src\Servise\UtilitesWorkFil.cs">
+	   <Compile Include="..\src\Servise\UtilitesWorkFil.cs">
       <Link>Servise\UtilitesWorkFil.cs</Link>
+    </Compile>
+    <Compile Include="..\src\Servise\McParamManagerProxy.cs">
+      <Link>Servise\McParamManagerProxy.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
