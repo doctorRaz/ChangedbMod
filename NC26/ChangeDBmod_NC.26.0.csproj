@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	<UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+	  <Description>Переключалка баз Multicad для nanoCAD 26</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);NC;NC26</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);NC;NC26</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\CadCommands\CadCommand.cs" Link="CadCommands\CadCommand.cs" />
+    <Compile Include="..\src\Interfaces\IAllMessageService.cs" Link="Interfaces\IAllMessageService.cs" />
+    <Compile Include="..\src\Interfaces\IInputBoxService.cs" Link="Interfaces\IInputBoxService.cs" />
+    <Compile Include="..\src\Interfaces\IMessageService.cs" Link="Interfaces\IMessageService.cs" />
+    <Compile Include="..\src\Interfaces\IQuestionService.cs" Link="Interfaces\IQuestionService.cs" />
+    <Compile Include="..\src\Servise\CmdInfo.cs" Link="Servise\CmdInfo.cs" />
+    <Compile Include="..\src\Servise\ListCMDInfo.cs" Link="Servise\ListCMDInfo.cs" />
+    <Compile Include="..\src\Servise\MessageService.cs" Link="Servise\MessageService.cs" />
+    <Compile Include="..\src\Servise\SysConstant.cs" Link="Servise\SysConstant.cs" />
+    <Compile Include="..\src\Servise\SysInfo.cs" Link="Servise\SysInfo.cs" />
+    <Compile Include="..\src\Servise\UtilitesWorkFil.cs" Link="Servise\UtilitesWorkFil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nanoCAD.Platform.NET" Version="25.0.6785.4733" />
+    <Reference Include="mapimgd">
+      <HintPath>C:\Program Files\Nanosoft\nanoCAD x64 26.0\bin_nPlat\mapimgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+	<Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+
+</Project>

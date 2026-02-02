@@ -15,7 +15,7 @@
 		<!-- ***********путь сборки -->
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<!-- <BaseOutputPath>$(SolutionDir)bin.NET</BaseOutputPath> -->
-		<OutputPath>$(SolutionDir)bin.NET\$(Configuration)</OutputPath>
+		<OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
 		<!-- *******************Description *************-->
 		<!-- ***************** Постоянные свойства ***************** -->
 		<!-- CompanyName -->

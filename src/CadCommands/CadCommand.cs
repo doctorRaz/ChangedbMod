@@ -3,8 +3,11 @@
 using System.ComponentModel;
 
 
-
+#if NC26
+using MC = Multicad.ApplicationServices;
+#else
 using MC = Multicad.AplicationServices;
+#endif
 
 using drz.ChangeDBmod.Servise;
 
