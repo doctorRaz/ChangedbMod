@@ -1,14 +1,13 @@
 // Ignore Spelling: Changedb
 
 using System.ComponentModel;
-
-
-
-using MC = Multicad.AplicationServices;
-
 using drz.ChangeDBmod.Servise;
 
-
+#if NC26
+using MC = Multicad.ApplicationServices;
+#else
+using MC = Multicad.AplicationServices;
+#endif
 
 
 #if NC
@@ -67,7 +66,7 @@ namespace drz.ChangeDBmod
         public void ChangedbMod()
         {
             App.Document doc = App.Application.DocumentManager.MdiActiveDocument;
-            //Db.Database db = doc.Database;
+            
             Ed.Editor ed = doc.Editor;
 
             Ed.PromptStringOptions opts = new Ed.PromptStringOptions("enter base:")

@@ -92,19 +92,10 @@
       <HintPath>..\..\SDK\AC2024\inc\AdWindows.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="imapimgd">
-      <HintPath>..\..\SDK\NC22\include-x64\imapimgd.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="mapibasetypes">
-      <HintPath>..\..\SDK\NC22\include-x64\mapibasetypes.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="mapimgd">
-      <HintPath>..\..\SDK\NC22\include-x64\mapimgd.dll</HintPath>
+      <HintPath>c:\Program Files\CSoft\СПДС GraphiCS 2024 x64\mg143x64\mapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -119,17 +110,8 @@
     <Compile Include="..\src\CadCommands\CadCommand.cs">
       <Link>CadCommands\CadCommand.cs</Link>
     </Compile>
-    <Compile Include="..\src\Interfaces\IAllMessageService.cs">
-      <Link>Interfaces\IAllMessageService.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Interfaces\IInputBoxService.cs">
-      <Link>Interfaces\IInputBoxService.cs</Link>
-    </Compile>
     <Compile Include="..\src\Interfaces\IMessageService.cs">
       <Link>Interfaces\IMessageService.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Interfaces\IQuestionService.cs">
-      <Link>Interfaces\IQuestionService.cs</Link>
     </Compile>
     <Compile Include="..\src\Servise\CmdInfo.cs">
       <Link>Servise\CmdInfo.cs</Link>
@@ -140,14 +122,8 @@
     <Compile Include="..\src\Servise\MessageService.cs">
       <Link>Servise\MessageService.cs</Link>
     </Compile>
-    <Compile Include="..\src\Servise\SysConstant.cs">
-      <Link>Servise\SysConstant.cs</Link>
-    </Compile>
     <Compile Include="..\src\Servise\SysInfo.cs">
       <Link>Servise\SysInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Servise\UtilitesWorkFil.cs">
-      <Link>Servise\UtilitesWorkFil.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

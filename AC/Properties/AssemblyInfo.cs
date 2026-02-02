@@ -1,15 +1,14 @@
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ChangeDB")]
-[assembly: AssemblyDescription("Переключение базы MultiCAD")]
+[assembly: AssemblyDescription("Переключение базы MultiCAD для AutoCAD")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("drzTools")]
+[assembly: AssemblyProduct("ChangeDBmod")]
 [assembly: AssemblyCopyright("©doctoRAZ 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
