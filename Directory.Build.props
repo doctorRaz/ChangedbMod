@@ -1,7 +1,7 @@
 ﻿<Project>
 	<PropertyGroup>
 		<!-- с WPF аккуратно, теряет ресурсы -->
-		<RootNamespace>dRz</RootNamespace>
+		<RootNamespace>dRz.ChangeDBmod</RootNamespace>
 		<!--<DateTime -->
 		<StartYear>2014</StartYear>
 		<CurrentYear>$([System.DateTime]::Now.Year)</CurrentYear>

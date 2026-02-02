@@ -196,7 +196,7 @@ namespace drz.ChangeDBmod.Servise
                     }
                 }
             }
-            //return res;
+
             return res.MethodAttr == null ? null : res;
         }
     }

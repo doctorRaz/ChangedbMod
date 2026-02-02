@@ -113,9 +113,6 @@
     <Compile Include="..\src\Interfaces\IMessageService.cs">
       <Link>Interfaces\IMessageService.cs</Link>
     </Compile>
-    <Compile Include="..\src\Interfaces\IQuestionService.cs">
-      <Link>Interfaces\IQuestionService.cs</Link>
-    </Compile>
     <Compile Include="..\src\Servise\CmdInfo.cs">
       <Link>Servise\CmdInfo.cs</Link>
     </Compile>
@@ -125,14 +122,8 @@
     <Compile Include="..\src\Servise\MessageService.cs">
       <Link>Servise\MessageService.cs</Link>
     </Compile>
-    <Compile Include="..\src\Servise\SysConstant.cs">
-      <Link>Servise\SysConstant.cs</Link>
-    </Compile>
     <Compile Include="..\src\Servise\SysInfo.cs">
       <Link>Servise\SysInfo.cs</Link>
-    </Compile>
-    <Compile Include="..\src\Servise\UtilitesWorkFil.cs">
-      <Link>Servise\UtilitesWorkFil.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

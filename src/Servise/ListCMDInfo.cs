@@ -1,6 +1,5 @@
-﻿using System.Reflection;
-
-using drz.ChangeDBmod.Abstractions.Interfaces;
+﻿using drz.ChangeDBmod.Abstractions.Interfaces;
+using System.Reflection;
 
 
 
@@ -19,6 +18,7 @@ namespace drz.ChangeDBmod.Servise
 #if DEBUG
             bMethod = true;
 #endif
+
             //выводим список команд с описаниями
             CmdInfo CDI = new CmdInfo(Assembly.GetExecutingAssembly(), bMethod);//эта сборка вывод имен классов
 
@@ -26,9 +26,10 @@ namespace drz.ChangeDBmod.Servise
 
             string sVersion = SysInfo.sVersionFull;
 
-            string sDateRliz = SysInfo.sDateRelies;
+            string sDateRliz = SysInfo.sDateRelis;
 
             IMessageService msgService = new MessageService();
+
             msgService.ConsoleMessage($"{sTitleAttribute}: v.{sVersion} от {sDateRliz}");
 
             msgService.ConsoleMessage("------------------------------------------");
