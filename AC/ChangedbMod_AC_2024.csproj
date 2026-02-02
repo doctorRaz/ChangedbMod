@@ -92,19 +92,10 @@
       <HintPath>..\..\SDK\AC2024\inc\AdWindows.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="imapimgd">
-      <HintPath>..\..\SDK\NC22\include-x64\imapimgd.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="mapibasetypes">
-      <HintPath>..\..\SDK\NC_SDK_22.0.5944.3726.6053\include-x64\mapibasetypes.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="mapimgd">
-      <HintPath>..\..\SDK\NC_SDK_22.0.5944.3726.6053\include-x64\mapimgd.dll</HintPath>
+      <HintPath>c:\Program Files\CSoft\СПДС GraphiCS 2024 x64\mg143x64\mapimgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
