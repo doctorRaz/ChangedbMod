@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.2.11415.280 d18.0
+VisualStudioVersion = 18.2.11415.280
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_AC_2024", "AC\ChangeDBmod_AC_2024.csproj", "{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod_NC.21.0", "NC21\ChangeDBmod_NC.21.0.csproj", "{183CA9B3-51FF-4C78-8F82-A400957891BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod_NC.21-25", "NC21\ChangeDBmod_NC.21-25.csproj", "{183CA9B3-51FF-4C78-8F82-A400957891BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_NC.26.0", "NC26\ChangeDBmod_NC.26.0.csproj", "{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_NC.26", "NC26\ChangeDBmod_NC.26.csproj", "{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
