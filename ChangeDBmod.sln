@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_NC", "NC\ChangeDBmod_NC.csproj", "{045A02B6-25B6-4CB9-A82D-962632A33D83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_NC.22.0", "NC\ChangeDBmod_NC.22.0.csproj", "{045A02B6-25B6-4CB9-A82D-962632A33D83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDBmod_AC_2024", "AC\ChangeDBmod_AC_2024.csproj", "{7548E40F-A58F-47B6-AEF5-A8AAACE5C15D}"
 EndProject
