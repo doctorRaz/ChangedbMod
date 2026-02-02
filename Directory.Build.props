@@ -1,0 +1,46 @@
+﻿<Project>
+	<PropertyGroup>
+		<!-- с WPF аккуратно, теряет ресурсы -->
+		<RootNamespace>dRz</RootNamespace>
+		<!--<DateTime -->
+		<StartYear>2014</StartYear>
+		<CurrentYear>$([System.DateTime]::Now.Year)</CurrentYear>
+		<!--<Version />-->
+		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+		<Deterministic>false</Deterministic>
+		<AssemblyVersion>0.2.*</AssemblyVersion>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<!-- <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute> -->
+		<!--<Version />-->
+		<!-- ***********путь сборки -->
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<!-- <BaseOutputPath>$(SolutionDir)bin.NET</BaseOutputPath> -->
+		<OutputPath>$(SolutionDir)bin.NET\$(Configuration)</OutputPath>
+		<!-- *******************Description *************-->
+		<!-- ***************** Постоянные свойства ***************** -->
+		<!-- CompanyName -->
+		<Company>doctorRaz@gmail.com</Company>
+		<!-- LegalCopyright -->
+		<Copyright>Разыграев Андрей</Copyright>
+		<!-- LegalTrademarks -->
+		<Trademark>©doctorRaz $(StartYear)-$(CurrentYear)</Trademark>
+		<!-- ***************** Переопределяются в проекте ***************** -->
+		<!-- ProductName -->
+		<Product>ChangeDBmod</Product>
+		<!-- FileDescription он жэж Title-->
+		<!-- если все закоментить то в титул пойдет имя сборки -->
+		<AssemblyTitle>ChangeDBmod</AssemblyTitle>
+		<!-- Comments -->
+		<Description>Переключалка баз Multicad</Description>
+		<!-- ProductVersion он жэж AssemblyInformationalVersion-->
+		<InformationalVersion>ChangeDBmod for CAD</InformationalVersion>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+		<NeutralLanguage>ru-RU</NeutralLanguage>
+		<RepositoryUrl>http://doctorraz.blogspot.com/2022/10/PlotSPDS.NET.html</RepositoryUrl>
+		<!-- ***************** ХЗ где используется ***************** -->
+		<!-- <PackageProjectUrl>http://doctorraz.blogspot.com/2022/10/PlotSPDS.NET.html</PackageProjectUrl> -->
+		<!-- <ProductVersion>ProductVersion</ProductVersion> -->
+		<!-- <AssemblyProductVersion>AssemblyProductVersion</AssemblyProductVersion> -->
+		<!-- <AssemblyInformationalVersionAttribute>AssemblyInformationalVersionAttribute</AssemblyInformationalVersionAttribute> -->
+	</PropertyGroup>
+</Project>
