@@ -7,12 +7,30 @@
 
  ## [Описание проекта](https://deepwiki.com/doctorRaz/ChangedbMod) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/doctorRaz/ChangedbMod)
  
+## Сборки для:
+- `ChangeDBmod_NC.21-25` nanoCad 21-25
+- `ChangeDBmod_NC.26` nanoCad 26
+- `ChangedbMod_AC_2024` AutoCAD (c СПДС CS или Механика CS)
 
-## Переключение между базами данных MultiCAD
- 
+### Загрузить сборку соответствующей версии для своего CAD
+- nanoCAD `appload`
+- AutoCAD `netload`
+  
+## Назначение: переключение между базами данных MultiCAD
+ ### Вызов 
  > `drz_changedb`	Переключение базы данных MultiCAD
 
-- ChangeDBmod_NC.21-25 nanoCad 21-25
-- ChangeDBmod_NC.26. nanoCad 26
-- ChangedbMod_AC_2024 AutoCAD 
+### Пример использования
+```
+;база local SQL
+(vl-cmdf "spchangedb" "z:\\BD_SQL\\nana\\std.mdf")
+
+;PostgreSQL
+(vl-cmdf "spchangedb" "pgsql:nspds240")
+
+; MS SQL
+(vl-cmdf "spchangedb" "SQL:SERVER:mc_spds9")
+```
+
+
 
