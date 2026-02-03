@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48-windows</TargetFramework>
+    <!--<LangVersion>latest</LangVersion>
+	<UseWPF>true</UseWPF>-->
+	<UseWindowsForms>true</UseWindowsForms>
+	  <Description>Переключалка баз Multicad для AutoCAD >= 2018</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);AC</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants);AC</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\CadCommands\CadCommand.cs" Link="CadCommands\CadCommand.cs" />
+    <Compile Include="..\src\Interfaces\IMessageService.cs" Link="Interfaces\IMessageService.cs" />
+    <Compile Include="..\src\Servise\CmdInfo.cs" Link="Servise\CmdInfo.cs" />
+    <Compile Include="..\src\Servise\ListCMDInfo.cs" Link="Servise\ListCMDInfo.cs" />
+    <Compile Include="..\src\Servise\MessageService.cs" Link="Servise\MessageService.cs" />
+    <Compile Include="..\src\Servise\SysInfo.cs" Link="Servise\SysInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+	  <PackageReference Include="AutoCAD.NET" Version="22.0.0">
+		     <ExcludeAssets>runtime</ExcludeAssets>
+
+	  </PackageReference>
+
+    <PackageReference Include="MultiCAD.NET" Version="21.0.5699.3427" />
+    
+  </ItemGroup>
+
+</Project>
