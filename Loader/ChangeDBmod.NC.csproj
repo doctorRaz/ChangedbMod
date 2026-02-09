@@ -2,16 +2,13 @@
 	<PropertyGroup>
 		<TargetFramework>net462</TargetFramework>
 		<!--***********-->
-		<Description>Загрузчик модулей PlotSPDS под версию nanoCAD</Description>
+		<Description>Загрузчик модулей ChangedbMod под версию nanoCAD</Description>
 		<AssemblyTitle>ChangeDBmod.NC.Loader</AssemblyTitle>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<DefineConstants>$(DefineConstants);NC</DefineConstants>
-	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	<PropertyGroup>
 		<DefineConstants>$(DefineConstants);NC</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="nanoCAD.Platform.NET" Version="21.0.5699.3427" />
+		<PackageReference Include="nanoCAD.Platform.NET" Version="21.0.5699.3427"/>
 	</ItemGroup>
 </Project>

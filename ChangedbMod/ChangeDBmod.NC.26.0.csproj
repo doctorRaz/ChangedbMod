@@ -4,13 +4,13 @@
 		<UseWPF>true</UseWPF>
 		<!--**********-->
 		<Description>Переключалка баз Multicad для nanoCAD 26</Description>
+		<AssemblyTitle>ChangeDBmod.NC.26</AssemblyTitle>
 	</PropertyGroup>
 	<PropertyGroup>
 		<DefineConstants>$(DefineConstants);NC;NC26</DefineConstants>
-		<AssemblyTitle>ChangeDBmod.NC.26</AssemblyTitle>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="MultiCAD.NET" Version="26.0.7226.4926" />
-		<PackageReference Include="nanoCAD.Platform.NET" Version="25.0.6785.4733" />
+		<PackageReference Include="MultiCAD.NET" Version="26.0.7226.4926"/>
+		<PackageReference Include="nanoCAD.Platform.NET" Version="25.0.6785.4733"/>
 	</ItemGroup>
 </Project>

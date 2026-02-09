@@ -9,7 +9,7 @@
 		<DefineConstants>$(DefineConstants);NC</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="MultiCAD.NET" Version="21.0.5699.3427" />
-		<PackageReference Include="nanoCAD.Platform.NET" Version="21.0.5699.3427" />
+		<PackageReference Include="MultiCAD.NET" Version="21.0.5699.3427"/>
+		<PackageReference Include="nanoCAD.Platform.NET" Version="21.0.5699.3427"/>
 	</ItemGroup>
 </Project>
