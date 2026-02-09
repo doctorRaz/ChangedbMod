@@ -1,7 +1,14 @@
 ﻿<Project>
 	<PropertyGroup>
+		<!-- root решения относительно каталога решения, имха более верно -->
+		<!--************* только при сборке из решения ******************-->
+		<RepoRoot>$(SolutionDir)</RepoRoot>
+		<!-- выходной каталог obj -->
+		<BaseIntermediateOutputPath>$(RepoRoot)obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+		
 		<!-- с WPF аккуратно, теряет ресурсы -->
 		<RootNamespace>dRz.ChangeDBmod</RootNamespace>
+		<LangVersion>latest</LangVersion>
 		<!--<DateTime -->
 		<StartYear>2014</StartYear>
 		<CurrentYear>$([System.DateTime]::Now.Year)</CurrentYear>
@@ -14,8 +21,8 @@
 		<!--<Version />-->
 		<!-- ***********путь сборки -->
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<!-- <BaseOutputPath>$(SolutionDir)bin.NET</BaseOutputPath> -->
-		<OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
+		 <BaseOutputPath>..\bin\</BaseOutputPath> 
+		<!--<OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>-->
 		<!-- *******************Description *************-->
 		<!-- ***************** Постоянные свойства ***************** -->
 		<!-- CompanyName -->

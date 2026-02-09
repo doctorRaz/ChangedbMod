@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod_NC.21-25", "NC21\ChangeDBmod_NC.21-25.csproj", "{183CA9B3-51FF-4C78-8F82-A400957891BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod.AC2018", "ChangedbMod\ChangeDBmod.AC2018.csproj", "{2D766D79-2676-47F1-B07F-30C76617C3F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod_NC.26", "NC26\ChangeDBmod_NC.26.csproj", "{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod.NC.21.0", "ChangedbMod\ChangeDBmod.NC.21.0.csproj", "{B7830ADF-508D-4A43-B4AE-7BF0CDD35430}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod_AC_2018", "AC2018\ChangeDBmod_AC_2018.csproj", "{1BB445F8-B9B6-458D-A992-BCE5BAC9F1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDBmod.NC.26.0", "ChangedbMod\ChangeDBmod.NC.26.0.csproj", "{AAB71E84-AE5D-487A-BDD2-9686BD5F94F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{183CA9B3-51FF-4C78-8F82-A400957891BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{183CA9B3-51FF-4C78-8F82-A400957891BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{183CA9B3-51FF-4C78-8F82-A400957891BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{183CA9B3-51FF-4C78-8F82-A400957891BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC35626C-9D87-7DAC-3559-BC6C9B559E7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BB445F8-B9B6-458D-A992-BCE5BAC9F1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BB445F8-B9B6-458D-A992-BCE5BAC9F1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BB445F8-B9B6-458D-A992-BCE5BAC9F1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BB445F8-B9B6-458D-A992-BCE5BAC9F1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D766D79-2676-47F1-B07F-30C76617C3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D766D79-2676-47F1-B07F-30C76617C3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D766D79-2676-47F1-B07F-30C76617C3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D766D79-2676-47F1-B07F-30C76617C3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7830ADF-508D-4A43-B4AE-7BF0CDD35430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7830ADF-508D-4A43-B4AE-7BF0CDD35430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7830ADF-508D-4A43-B4AE-7BF0CDD35430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7830ADF-508D-4A43-B4AE-7BF0CDD35430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB71E84-AE5D-487A-BDD2-9686BD5F94F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB71E84-AE5D-487A-BDD2-9686BD5F94F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB71E84-AE5D-487A-BDD2-9686BD5F94F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB71E84-AE5D-487A-BDD2-9686BD5F94F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
