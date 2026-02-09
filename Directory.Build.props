@@ -15,7 +15,7 @@
 		<!--<Version />-->
 		<GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
 		<Deterministic>false</Deterministic>
-		<AssemblyVersion>0.2.*</AssemblyVersion>
+		<AssemblyVersion>0.5.*</AssemblyVersion>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
 		<!-- <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute> -->
 		<!--<Version />-->
@@ -43,7 +43,7 @@
 		<InformationalVersion>ChangeDBmod for CAD</InformationalVersion>
 		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
 		<NeutralLanguage>ru-RU</NeutralLanguage>
-		<RepositoryUrl>http://doctorraz.blogspot.com/2022/10/PlotSPDS.NET.html</RepositoryUrl>
+		<RepositoryUrl>https://github.com/doctorRaz/ChangedbMod</RepositoryUrl>
 		<!-- ***************** ХЗ где используется ***************** -->
 		<!-- <PackageProjectUrl>http://doctorraz.blogspot.com/2022/10/PlotSPDS.NET.html</PackageProjectUrl> -->
 		<!-- <ProductVersion>ProductVersion</ProductVersion> -->

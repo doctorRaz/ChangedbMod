@@ -1,4 +1,3 @@
-// Ignore Spelling: Changedb
 
 using System.ComponentModel;
 using drz.ChangeDBmod.Servise;
@@ -66,7 +65,7 @@ namespace drz.ChangeDBmod
         public void ChangedbMod()
         {
             App.Document doc = App.Application.DocumentManager.MdiActiveDocument;
-            
+
             Ed.Editor ed = doc.Editor;
 
             Ed.PromptStringOptions opts = new Ed.PromptStringOptions("enter base:")
